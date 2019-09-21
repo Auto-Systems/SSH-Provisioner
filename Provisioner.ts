@@ -4,7 +4,7 @@ import { ProvisionerModule } from 'API/Provisioner/Decorators/ProvisionerClass';
 import { outputFile, pathExists, readFile } from 'fs-extra';
 import { ssh as forgessh, pki } from 'node-forge';
 import SSH2Promise from '@johnls/ssh2-promise';
-import { AddAuthenticationInput, File } from '../types';
+import { AddAuthenticationInput, File } from 'API/Provisioner/types';
 import SFTP from '@johnls/ssh2-promise/dist/sftp';
 import { Writable, Readable } from 'stream';
 
