@@ -1,6 +1,6 @@
 // API/src/Provisioner/SSH/Provisioner.ts
-import { provisionerMethod } from '../Decorators/MethodDecorator';
-import { ProvisionerModule } from '../Decorators/ProvisionerClass';
+import { provisionerMethod } from 'API/Provisioner/Decorators/MethodDecorator';
+import { ProvisionerModule } from 'API/Provisioner/Decorators/ProvisionerClass';
 import { outputFile, pathExists, readFile } from 'fs-extra';
 import { ssh as forgessh, pki } from 'node-forge';
 import SSH2Promise from '@johnls/ssh2-promise';
