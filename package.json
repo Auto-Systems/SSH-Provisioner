@@ -13,7 +13,7 @@
   "dependencies": {
     "@johnls/ssh2-promise": "^1.0.0",
     "fs-extra": "^8.1.0",
-    "node-forge": "^0.8.5",
+    "node-forge": "^0.10.0",
     "node-ssh": "^6.0.0",
     "ssh2-promise": "^0.1.5"
   },
